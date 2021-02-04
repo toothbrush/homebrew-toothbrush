@@ -1,4 +1,4 @@
-# Toothbrush Toothbrush
+# Some Homebrew formulae i want
 
 ## How do I install these formulae?
 `brew install toothbrush/toothbrush/<formula>`
