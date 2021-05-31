@@ -12,6 +12,6 @@ class ClitotpGo < Formula
   end
 
   test do
-    assert_match /you just love TOTPs/, shell_output(bin/"clitotp-go --help")
+    assert_match(/you just love TOTPs/, shell_output(bin/"clitotp-go --help"))
   end
 end
