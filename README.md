@@ -23,3 +23,12 @@ $ brew install --build-from-source --verbose --debug ./Formula/clitotp-go.rb
 
 ## Documentation
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+
+## For the Cask
+
+This bit of documentation was useful: https://github.com/Homebrew/homebrew-cask/blob/master/CONTRIBUTING.md#getting-set-up-to-contribute.
+
+```sh
+cd "$(brew --repository)"/Library/Taps/toothbrush/homebrew-toothbrush
+git checkout -b new-feature
+```
