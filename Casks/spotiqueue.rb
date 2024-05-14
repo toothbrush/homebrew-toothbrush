@@ -1,6 +1,6 @@
 cask "spotiqueue" do
-  version "2.5.2"
-  sha256 "f18f24394bd3b9c0fef9e74f549e3e8a9f693338a95a50731b9d4ea630db73d5"
+  version "2.8.0"
+  sha256 "bf847fe1370e5348d2d213c55b2b87dcf22afab655da3c8bf1b9b79461173ae7"
 
   url "https://github.com/toothbrush/spotiqueue/releases/download/v#{version}/Spotiqueue-v#{version}.zip"
   name "Spotiqueue"
