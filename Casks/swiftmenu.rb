@@ -1,6 +1,6 @@
 cask "swiftmenu" do
-  version "0.5"
-  sha256 "6afb578a8719f302c9b7eb994db84730cca5ea9fc16844870aea67f323e06f1c"
+  version "0.6"
+  sha256 "acdf512d5b9c76eca823addaa02b7464fb52b19ede69ef18bf768940965b68a6"
 
   url "https://github.com/toothbrush/SwiftMenu/releases/download/v#{version}/SwiftMenu-v#{version}.zip"
   name "SwiftMenu"
