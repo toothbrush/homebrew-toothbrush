@@ -3,7 +3,7 @@ class Passage < Formula
   homepage "https://github.com/FiloSottile/passage"
   version "1.7.4a2"
   url "https://github.com/FiloSottile/passage/archive/1.7.4a2.tar.gz"
-  sha256 "3e0d959521e9dd9e90e8fcdd827876a274cc3c972172a259c5c5dbf1208be7ad"
+  sha256 "d4bd97be2eda4249b31c2042707ef70ba50385f6fb7791598f51be794168ee2c"
   license "GPL-2.0-or-later"
   head "https://github.com/FiloSottile/passage.git", branch: "main"
 
