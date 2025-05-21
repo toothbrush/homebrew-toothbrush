@@ -1,8 +1,8 @@
 class ClitotpGo < Formula
   desc "Generate and manage TOTP codes on the CLI"
   homepage "https://github.com/toothbrush/clitotp-go"
-  url "https://github.com/toothbrush/clitotp-go/archive/refs/tags/v0.5.tar.gz"
-  sha256 "3c1c8e9e491c0017ab5b5d840e669e00a4edf9d71fd51bba72788fd9418dd49f"
+  url "https://github.com/toothbrush/clitotp-go/archive/refs/tags/v0.5.1.tar.gz"
+  sha256 "21621b07d5c152f17671e8c8e95897aea7a1170a4af3a97662e0534f30bca889"
   license "MIT"
 
   depends_on "go" => :build
