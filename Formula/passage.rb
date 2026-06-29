@@ -1,8 +1,8 @@
 class Passage < Formula
   desc "Fork of password-store that uses age instead of GnuPG"
   homepage "https://github.com/FiloSottile/passage"
+  url "https://github.com/FiloSottile/passage/archive/refs/tags/1.7.4a2.tar.gz"
   version "1.7.4a2"
-  url "https://github.com/FiloSottile/passage/archive/1.7.4a2.tar.gz"
   sha256 "d4bd97be2eda4249b31c2042707ef70ba50385f6fb7791598f51be794168ee2c"
   license "GPL-2.0-or-later"
   head "https://github.com/FiloSottile/passage.git", branch: "main"
@@ -22,8 +22,8 @@ class Passage < Formula
 
   test do
     (testpath/".passage").mkdir
-    system Formula["age"].opt_bin/"age-keygen", "-o", ".passage/identities"
+    system formula_opt_bin("age")/"age-keygen", "-o", ".passage/identities"
     system bin/"passage", "generate", "foo.bar"
-    assert_predicate testpath/".passage/store/foo.bar.age", :exist?
+    assert_path_exists testpath/".passage/store/foo.bar.age"
   end
 end
