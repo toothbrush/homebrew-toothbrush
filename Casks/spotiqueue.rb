@@ -7,7 +7,7 @@ cask "spotiqueue" do
   desc "Dead-simple queue-oriented client for Spotify"
   homepage "https://github.com/toothbrush/Spotiqueue"
 
-  depends_on macos: ">= :catalina"
+  depends_on macos: :catalina
 
   app "Spotiqueue.app"
 end
